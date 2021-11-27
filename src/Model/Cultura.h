@@ -14,7 +14,7 @@ using std::cin;
 
 class Cultura {
 
-    protected:
+    public:
         Cultura();
         virtual void infoCultura();
 
