@@ -15,27 +15,8 @@ using std::cin;
 class Cultura {
 
     protected:
-        string tipoCultura;
-        string contactoVisual;
-        string gestos;
-        string comunicacion;
-        string tradicionSiesta;
-        string distanciamiento;
-
-        virtual void setTipoCultura();
-        virtual void setContactoVisual();
-        virtual void setGestos();
-        virtual void setComunicacion();
-        virtual void setTradicionSiesta();
-        virtual void setDistanciamiento();
-
-    public:
-        string getTipoCultura();
-        string getContactoVisual();
-        string getGestos();
-        string getComunicacion();
-        string getTradicionSiesta();
-        string getDistanciamiento();
+        Cultura();
+        virtual void infoCultura();
 
 };
 
