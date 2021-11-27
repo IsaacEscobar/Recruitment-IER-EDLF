@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Australia.cpp">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Australia.h">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.cpp">
 			<Option target="Recruitment_IER_EDLF"/>
 		</Unit>
@@ -106,10 +112,22 @@
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h">
 			<Option target="Recruitment_IER_EDLF"/>
 		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Espania.cpp">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Espania.h">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.cpp">
 			<Option target="Recruitment_IER_EDLF"/>
 		</Unit>
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Japon.cpp">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Japon.h">
 			<Option target="Recruitment_IER_EDLF"/>
 		</Unit>
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.cpp">
