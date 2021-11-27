@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Recruitment_IER_EDLF.dir/Model/Candidato.cpp.obj"
+  "CMakeFiles/Recruitment_IER_EDLF.dir/Model/Colombia.cpp.obj"
   "CMakeFiles/Recruitment_IER_EDLF.dir/Model/Cultura.cpp.obj"
   "CMakeFiles/Recruitment_IER_EDLF.dir/Model/Entrevista.cpp.obj"
   "CMakeFiles/Recruitment_IER_EDLF.dir/Model/FactoryCandidato.cpp.obj"

@@ -5,6 +5,10 @@ CMakeFiles/Recruitment_IER_EDLF.dir/Model/Candidato.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.cpp
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
+CMakeFiles/Recruitment_IER_EDLF.dir/Model/Colombia.cpp.obj
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.cpp
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
 CMakeFiles/Recruitment_IER_EDLF.dir/Model/Cultura.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.cpp
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
@@ -12,10 +16,14 @@ CMakeFiles/Recruitment_IER_EDLF.dir/Model/Entrevista.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.cpp
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h
 CMakeFiles/Recruitment_IER_EDLF.dir/Model/FactoryCandidato.cpp.obj
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.cpp
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
 CMakeFiles/Recruitment_IER_EDLF.dir/Model/ParkingSoft.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
@@ -23,6 +31,7 @@ CMakeFiles/Recruitment_IER_EDLF.dir/Model/ParkingSoft.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.h
 CMakeFiles/Recruitment_IER_EDLF.dir/View/View.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
@@ -31,6 +40,7 @@ CMakeFiles/Recruitment_IER_EDLF.dir/View/View.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/View/View.h
 CMakeFiles/Recruitment_IER_EDLF.dir/main.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h

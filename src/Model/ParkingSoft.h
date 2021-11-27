@@ -7,10 +7,21 @@
 
 #include "Candidato.h"
 #include "FactoryCandidato.h"
-#include "Cultura.h"
 #include "Entrevista.h"
+#include <map>
+#include <vector>
+
+using std::map;
+using std::vector;
 
 class ParkingSoft {
+
+    private:
+        map<int, Candidato*> candidatos;
+        vector<Entrevista*> entrevistas;
+        FactoryCandidato factory;
+    public:
+
 
 };
 

@@ -152,6 +152,30 @@ Model/Candidato.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Candidato.cpp.s
 .PHONY : Model/Candidato.cpp.s
 
+Model/Colombia.obj: Model/Colombia.cpp.obj
+.PHONY : Model/Colombia.obj
+
+# target to build an object file
+Model/Colombia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Colombia.cpp.obj
+.PHONY : Model/Colombia.cpp.obj
+
+Model/Colombia.i: Model/Colombia.cpp.i
+.PHONY : Model/Colombia.i
+
+# target to preprocess a source file
+Model/Colombia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Colombia.cpp.i
+.PHONY : Model/Colombia.cpp.i
+
+Model/Colombia.s: Model/Colombia.cpp.s
+.PHONY : Model/Colombia.s
+
+# target to generate assembly for a file
+Model/Colombia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Colombia.cpp.s
+.PHONY : Model/Colombia.cpp.s
+
 Model/Cultura.obj: Model/Cultura.cpp.obj
 .PHONY : Model/Cultura.obj
 
@@ -308,6 +332,9 @@ help:
 	@echo ... Model/Candidato.obj
 	@echo ... Model/Candidato.i
 	@echo ... Model/Candidato.s
+	@echo ... Model/Colombia.obj
+	@echo ... Model/Colombia.i
+	@echo ... Model/Colombia.s
 	@echo ... Model/Cultura.obj
 	@echo ... Model/Cultura.i
 	@echo ... Model/Cultura.s

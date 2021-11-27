@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h">
 			<Option target="Recruitment_IER_EDLF"/>
 		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.cpp">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h">
+			<Option target="Recruitment_IER_EDLF"/>
+		</Unit>
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.cpp">
 			<Option target="Recruitment_IER_EDLF"/>
 		</Unit>

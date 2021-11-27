@@ -9,6 +9,9 @@
 
 class View {
 
+    private:
+        ParkingSoft principal;
+
 };
 
 

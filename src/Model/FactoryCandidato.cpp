@@ -3,3 +3,7 @@
 //
 
 #include "FactoryCandidato.h"
+
+FactoryCandidato::FactoryCandidato() {
+
+}
