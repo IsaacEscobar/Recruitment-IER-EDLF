@@ -58,7 +58,7 @@ void ParkingSoft::anadirEntrevista() {
                 entrevistaTemp.setCandidato(pCandidato->second->getNombre());
                 entrevistaTemp.setIdentificacion(documento);
                 entrevistaTemp.setFecha((fecha));
-                entrevistaTemp.setNacionalidad(pCandidato->second->getNacionalidad().getNombre());
+                entrevistaTemp.setNacionalidad(pCandidato->second->getNacionalidad()->getNombre());
                 entrevistas.push_back(entrevistaTemp);
             }
         }
@@ -67,6 +67,16 @@ void ParkingSoft::anadirEntrevista() {
 }
 
 void ParkingSoft::generarCartaBienv() {
+    string fName;
+    int pasCand;
+    for(map<int, Candidato*>::iterator pCandidato = candidatos.begin(); pCandidato != candidatos.end(); pCandidato++) {
+        cout << pCandidato->second->getNombre() << " - " << pCandidato->second->getPasaporte() << "\n";
+    }
+    cout << "Digite el pasaporte del candidato: ";
+    cin >> pasCand;
+    fName = to_string(pasCand) + ".txt";
+    ofstream file(fName, ofstream::out);
+    file << "";
 
 }
 

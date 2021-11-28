@@ -6,45 +6,37 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Australia.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Australia.h
 Cultura.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Cultura.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
 
-<<<<<<< HEAD
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Candidato.h
-=======
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
->>>>>>> 3def53e56ab737a70db9c0ecf932c1cd6568a73c
 Cultura.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Cultura.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
 string
 -
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Colombia.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
 Cultura.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Cultura.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Cultura.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
 iostream
 -
 string
 -
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Entrevista.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h
 string
 -
 iostream
 -
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Espania.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Espania.h
 Cultura.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Cultura.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
 
-<<<<<<< HEAD
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
-=======
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
->>>>>>> 3def53e56ab737a70db9c0ecf932c1cd6568a73c
 iostream
 -
 stdlib.h
@@ -54,33 +46,39 @@ ios
 limits
 -
 Candidato.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Candidato.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
 Colombia.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Colombia.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
 Espania.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Espania.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Espania.h
 Australia.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Australia.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Australia.h
 Japon.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Japon.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Japon.h
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Japon.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Japon.h
 Cultura.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Cultura.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/ParkingSoft.cpp
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.cpp
 ParkingSoft.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/ParkingSoft.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.h
 
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/ParkingSoft.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.h
 Candidato.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Candidato.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
 FactoryCandidato.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
 Entrevista.h
-C:/Users/esteb_jnrfq5q/Desktop/Clases/POO/Proyecto 2/Recruitment-IER-EDLF/src/Model/Entrevista.h
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h
 map
 -
 vector
+-
+ios
+-
+iostream
+-
+fstream
 -
 

@@ -23,7 +23,7 @@ class Entrevista {
     string nacionalidad;
 
    public:
-     Entrevista();
+    Entrevista();
     void mostrarEntrevista();
 
     string getFecha();

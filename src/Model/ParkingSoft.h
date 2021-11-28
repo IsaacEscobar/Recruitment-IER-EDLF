@@ -10,9 +10,16 @@
 #include "Entrevista.h"
 #include <map>
 #include <vector>
+#include <ios>
+#include <iostream>
+#include <fstream>
 
+using std::string;
 using std::map;
 using std::vector;
+using std::ofstream;
+using std::endl;
+using std::to_string;
 
 class ParkingSoft {
 
