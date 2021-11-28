@@ -17,55 +17,55 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ParkingSoft">
+				<Option output="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/ParkingSoft.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 ParkingSoft"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ParkingSoft/fast">
+				<Option output="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/ParkingSoft.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 ParkingSoft/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Recruitment_IER_EDLF">
-				<Option output="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Recruitment_IER_EDLF.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recruitment_IER_EDLF"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Recruitment_IER_EDLF/fast">
-				<Option output="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Recruitment_IER_EDLF.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 Recruitment_IER_EDLF/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -82,44 +82,68 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/Candidato.cpp">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/Candidato.h">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/Cultura.cpp">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/Cultura.h">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/Entrevista.cpp">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/Entrevista.h">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/FactoryCandidato.cpp">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/FactoryCandidato.h">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/ParkingSoft.cpp">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/Model/ParkingSoft.h">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/View/View.cpp">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
-		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/View/View.h">
-			<Option target="Recruitment_IER_EDLF"/>
-		</Unit>
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/main.cpp">
-			<Option target="Recruitment_IER_EDLF"/>
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Australia.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Australia.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Cultura.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Entrevista.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Espania.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Espania.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Japon.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Japon.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.h">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/View/View.cpp">
+			<Option target="ParkingSoft"/>
+		</Unit>
+		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/View/View.h">
+			<Option target="ParkingSoft"/>
 		</Unit>
 		<Unit filename="C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

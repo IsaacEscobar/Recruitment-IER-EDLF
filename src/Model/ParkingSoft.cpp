@@ -8,6 +8,10 @@ ParkingSoft::ParkingSoft() {
 
 }
 
+/*
+ * Este metodo permite crear y añadir un candidato al mapa, se usa el patron de diseño factory mediante la clase
+ *factoryCandidato la cual se encarga de devolver el candidato armado con la información a ingresar
+ */
 void ParkingSoft::anadirCandidato() {
     Candidato newCand = this->factory.crearCandidato();
     Candidato* candidatoAgregar = new Candidato(newCand.getNombre(), newCand.getEmail(), newCand.getlinkedIn(),
@@ -21,6 +25,12 @@ void ParkingSoft::anadirCandidato() {
     }
 }
 
+/*
+ *Este metodo permite agregar una nueva entrevista al vector de entrevistas siempre y cuando el candidato seleccionado
+ * exista en el sistema y que además no tenga ya 3 entrevistas pendientes.
+ * Tras crear la entrevista le crea una guia de entrevista en formato .txt para uso del entrevistador con información
+ * pertinente sobre la cultura del candidato.
+ */
 void ParkingSoft::anadirEntrevista() {
     string nombre, nacionalidad, fecha;
     int documento, cont = 0;
@@ -80,6 +90,9 @@ void ParkingSoft::anadirEntrevista() {
     }
 }
 
+/*
+ *Este metodo genera la carta de bienvenida con información cultural para el candidato seleccionado
+ */
 void ParkingSoft::generarCartaBienv() {
     ofstream bienvenida;
     string fName;
@@ -111,6 +124,10 @@ void ParkingSoft::generarCartaBienv() {
     }
 }
 
+/*
+ *Este metodo permite verificar dentro del mapa de candidatos mediante el numero de documento entregado si el candidato
+ * sí existe dentro del sistema.
+ */
 bool ParkingSoft::verExisteCandidato(int documento)
 {
     for(map<int, Candidato*>::iterator pCandidato = candidatos.begin(); pCandidato != candidatos.end(); pCandidato++)

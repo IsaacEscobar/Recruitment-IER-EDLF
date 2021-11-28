@@ -116,168 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Recruitment_IER_EDLF
+# Target rules for targets named ParkingSoft
 
 # Build rule for target.
-Recruitment_IER_EDLF: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Recruitment_IER_EDLF
-.PHONY : Recruitment_IER_EDLF
+ParkingSoft: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ParkingSoft
+.PHONY : ParkingSoft
 
 # fast build rule for target.
-Recruitment_IER_EDLF/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/build
-.PHONY : Recruitment_IER_EDLF/fast
-
-Model/Candidato.obj: Model/Candidato.cpp.obj
-.PHONY : Model/Candidato.obj
-
-# target to build an object file
-Model/Candidato.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Candidato.cpp.obj
-.PHONY : Model/Candidato.cpp.obj
-
-Model/Candidato.i: Model/Candidato.cpp.i
-.PHONY : Model/Candidato.i
-
-# target to preprocess a source file
-Model/Candidato.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Candidato.cpp.i
-.PHONY : Model/Candidato.cpp.i
-
-Model/Candidato.s: Model/Candidato.cpp.s
-.PHONY : Model/Candidato.s
-
-# target to generate assembly for a file
-Model/Candidato.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Candidato.cpp.s
-.PHONY : Model/Candidato.cpp.s
-
-Model/Cultura.obj: Model/Cultura.cpp.obj
-.PHONY : Model/Cultura.obj
-
-# target to build an object file
-Model/Cultura.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Cultura.cpp.obj
-.PHONY : Model/Cultura.cpp.obj
-
-Model/Cultura.i: Model/Cultura.cpp.i
-.PHONY : Model/Cultura.i
-
-# target to preprocess a source file
-Model/Cultura.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Cultura.cpp.i
-.PHONY : Model/Cultura.cpp.i
-
-Model/Cultura.s: Model/Cultura.cpp.s
-.PHONY : Model/Cultura.s
-
-# target to generate assembly for a file
-Model/Cultura.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Cultura.cpp.s
-.PHONY : Model/Cultura.cpp.s
-
-Model/Entrevista.obj: Model/Entrevista.cpp.obj
-.PHONY : Model/Entrevista.obj
-
-# target to build an object file
-Model/Entrevista.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Entrevista.cpp.obj
-.PHONY : Model/Entrevista.cpp.obj
-
-Model/Entrevista.i: Model/Entrevista.cpp.i
-.PHONY : Model/Entrevista.i
-
-# target to preprocess a source file
-Model/Entrevista.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Entrevista.cpp.i
-.PHONY : Model/Entrevista.cpp.i
-
-Model/Entrevista.s: Model/Entrevista.cpp.s
-.PHONY : Model/Entrevista.s
-
-# target to generate assembly for a file
-Model/Entrevista.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/Entrevista.cpp.s
-.PHONY : Model/Entrevista.cpp.s
-
-Model/FactoryCandidato.obj: Model/FactoryCandidato.cpp.obj
-.PHONY : Model/FactoryCandidato.obj
-
-# target to build an object file
-Model/FactoryCandidato.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/FactoryCandidato.cpp.obj
-.PHONY : Model/FactoryCandidato.cpp.obj
-
-Model/FactoryCandidato.i: Model/FactoryCandidato.cpp.i
-.PHONY : Model/FactoryCandidato.i
-
-# target to preprocess a source file
-Model/FactoryCandidato.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/FactoryCandidato.cpp.i
-.PHONY : Model/FactoryCandidato.cpp.i
-
-Model/FactoryCandidato.s: Model/FactoryCandidato.cpp.s
-.PHONY : Model/FactoryCandidato.s
-
-# target to generate assembly for a file
-Model/FactoryCandidato.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/FactoryCandidato.cpp.s
-.PHONY : Model/FactoryCandidato.cpp.s
-
-Model/ParkingSoft.obj: Model/ParkingSoft.cpp.obj
-.PHONY : Model/ParkingSoft.obj
-
-# target to build an object file
-Model/ParkingSoft.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/ParkingSoft.cpp.obj
-.PHONY : Model/ParkingSoft.cpp.obj
-
-Model/ParkingSoft.i: Model/ParkingSoft.cpp.i
-.PHONY : Model/ParkingSoft.i
-
-# target to preprocess a source file
-Model/ParkingSoft.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/ParkingSoft.cpp.i
-.PHONY : Model/ParkingSoft.cpp.i
-
-Model/ParkingSoft.s: Model/ParkingSoft.cpp.s
-.PHONY : Model/ParkingSoft.s
-
-# target to generate assembly for a file
-Model/ParkingSoft.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/Model/ParkingSoft.cpp.s
-.PHONY : Model/ParkingSoft.cpp.s
-
-View/View.obj: View/View.cpp.obj
-.PHONY : View/View.obj
-
-# target to build an object file
-View/View.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/View/View.cpp.obj
-.PHONY : View/View.cpp.obj
-
-View/View.i: View/View.cpp.i
-.PHONY : View/View.i
-
-# target to preprocess a source file
-View/View.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/View/View.cpp.i
-.PHONY : View/View.cpp.i
-
-View/View.s: View/View.cpp.s
-.PHONY : View/View.s
-
-# target to generate assembly for a file
-View/View.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/View/View.cpp.s
-.PHONY : View/View.cpp.s
+ParkingSoft/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/build
+.PHONY : ParkingSoft/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -285,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -293,8 +149,248 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Recruitment_IER_EDLF.dir\build.make CMakeFiles/Recruitment_IER_EDLF.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/Model/Australia.obj: src/Model/Australia.cpp.obj
+.PHONY : src/Model/Australia.obj
+
+# target to build an object file
+src/Model/Australia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Australia.cpp.obj
+.PHONY : src/Model/Australia.cpp.obj
+
+src/Model/Australia.i: src/Model/Australia.cpp.i
+.PHONY : src/Model/Australia.i
+
+# target to preprocess a source file
+src/Model/Australia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Australia.cpp.i
+.PHONY : src/Model/Australia.cpp.i
+
+src/Model/Australia.s: src/Model/Australia.cpp.s
+.PHONY : src/Model/Australia.s
+
+# target to generate assembly for a file
+src/Model/Australia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Australia.cpp.s
+.PHONY : src/Model/Australia.cpp.s
+
+src/Model/Candidato.obj: src/Model/Candidato.cpp.obj
+.PHONY : src/Model/Candidato.obj
+
+# target to build an object file
+src/Model/Candidato.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Candidato.cpp.obj
+.PHONY : src/Model/Candidato.cpp.obj
+
+src/Model/Candidato.i: src/Model/Candidato.cpp.i
+.PHONY : src/Model/Candidato.i
+
+# target to preprocess a source file
+src/Model/Candidato.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Candidato.cpp.i
+.PHONY : src/Model/Candidato.cpp.i
+
+src/Model/Candidato.s: src/Model/Candidato.cpp.s
+.PHONY : src/Model/Candidato.s
+
+# target to generate assembly for a file
+src/Model/Candidato.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Candidato.cpp.s
+.PHONY : src/Model/Candidato.cpp.s
+
+src/Model/Colombia.obj: src/Model/Colombia.cpp.obj
+.PHONY : src/Model/Colombia.obj
+
+# target to build an object file
+src/Model/Colombia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Colombia.cpp.obj
+.PHONY : src/Model/Colombia.cpp.obj
+
+src/Model/Colombia.i: src/Model/Colombia.cpp.i
+.PHONY : src/Model/Colombia.i
+
+# target to preprocess a source file
+src/Model/Colombia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Colombia.cpp.i
+.PHONY : src/Model/Colombia.cpp.i
+
+src/Model/Colombia.s: src/Model/Colombia.cpp.s
+.PHONY : src/Model/Colombia.s
+
+# target to generate assembly for a file
+src/Model/Colombia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Colombia.cpp.s
+.PHONY : src/Model/Colombia.cpp.s
+
+src/Model/Cultura.obj: src/Model/Cultura.cpp.obj
+.PHONY : src/Model/Cultura.obj
+
+# target to build an object file
+src/Model/Cultura.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Cultura.cpp.obj
+.PHONY : src/Model/Cultura.cpp.obj
+
+src/Model/Cultura.i: src/Model/Cultura.cpp.i
+.PHONY : src/Model/Cultura.i
+
+# target to preprocess a source file
+src/Model/Cultura.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Cultura.cpp.i
+.PHONY : src/Model/Cultura.cpp.i
+
+src/Model/Cultura.s: src/Model/Cultura.cpp.s
+.PHONY : src/Model/Cultura.s
+
+# target to generate assembly for a file
+src/Model/Cultura.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Cultura.cpp.s
+.PHONY : src/Model/Cultura.cpp.s
+
+src/Model/Entrevista.obj: src/Model/Entrevista.cpp.obj
+.PHONY : src/Model/Entrevista.obj
+
+# target to build an object file
+src/Model/Entrevista.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Entrevista.cpp.obj
+.PHONY : src/Model/Entrevista.cpp.obj
+
+src/Model/Entrevista.i: src/Model/Entrevista.cpp.i
+.PHONY : src/Model/Entrevista.i
+
+# target to preprocess a source file
+src/Model/Entrevista.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Entrevista.cpp.i
+.PHONY : src/Model/Entrevista.cpp.i
+
+src/Model/Entrevista.s: src/Model/Entrevista.cpp.s
+.PHONY : src/Model/Entrevista.s
+
+# target to generate assembly for a file
+src/Model/Entrevista.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Entrevista.cpp.s
+.PHONY : src/Model/Entrevista.cpp.s
+
+src/Model/Espania.obj: src/Model/Espania.cpp.obj
+.PHONY : src/Model/Espania.obj
+
+# target to build an object file
+src/Model/Espania.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Espania.cpp.obj
+.PHONY : src/Model/Espania.cpp.obj
+
+src/Model/Espania.i: src/Model/Espania.cpp.i
+.PHONY : src/Model/Espania.i
+
+# target to preprocess a source file
+src/Model/Espania.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Espania.cpp.i
+.PHONY : src/Model/Espania.cpp.i
+
+src/Model/Espania.s: src/Model/Espania.cpp.s
+.PHONY : src/Model/Espania.s
+
+# target to generate assembly for a file
+src/Model/Espania.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Espania.cpp.s
+.PHONY : src/Model/Espania.cpp.s
+
+src/Model/FactoryCandidato.obj: src/Model/FactoryCandidato.cpp.obj
+.PHONY : src/Model/FactoryCandidato.obj
+
+# target to build an object file
+src/Model/FactoryCandidato.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/FactoryCandidato.cpp.obj
+.PHONY : src/Model/FactoryCandidato.cpp.obj
+
+src/Model/FactoryCandidato.i: src/Model/FactoryCandidato.cpp.i
+.PHONY : src/Model/FactoryCandidato.i
+
+# target to preprocess a source file
+src/Model/FactoryCandidato.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/FactoryCandidato.cpp.i
+.PHONY : src/Model/FactoryCandidato.cpp.i
+
+src/Model/FactoryCandidato.s: src/Model/FactoryCandidato.cpp.s
+.PHONY : src/Model/FactoryCandidato.s
+
+# target to generate assembly for a file
+src/Model/FactoryCandidato.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/FactoryCandidato.cpp.s
+.PHONY : src/Model/FactoryCandidato.cpp.s
+
+src/Model/Japon.obj: src/Model/Japon.cpp.obj
+.PHONY : src/Model/Japon.obj
+
+# target to build an object file
+src/Model/Japon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Japon.cpp.obj
+.PHONY : src/Model/Japon.cpp.obj
+
+src/Model/Japon.i: src/Model/Japon.cpp.i
+.PHONY : src/Model/Japon.i
+
+# target to preprocess a source file
+src/Model/Japon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Japon.cpp.i
+.PHONY : src/Model/Japon.cpp.i
+
+src/Model/Japon.s: src/Model/Japon.cpp.s
+.PHONY : src/Model/Japon.s
+
+# target to generate assembly for a file
+src/Model/Japon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/Japon.cpp.s
+.PHONY : src/Model/Japon.cpp.s
+
+src/Model/ParkingSoft.obj: src/Model/ParkingSoft.cpp.obj
+.PHONY : src/Model/ParkingSoft.obj
+
+# target to build an object file
+src/Model/ParkingSoft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/ParkingSoft.cpp.obj
+.PHONY : src/Model/ParkingSoft.cpp.obj
+
+src/Model/ParkingSoft.i: src/Model/ParkingSoft.cpp.i
+.PHONY : src/Model/ParkingSoft.i
+
+# target to preprocess a source file
+src/Model/ParkingSoft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/ParkingSoft.cpp.i
+.PHONY : src/Model/ParkingSoft.cpp.i
+
+src/Model/ParkingSoft.s: src/Model/ParkingSoft.cpp.s
+.PHONY : src/Model/ParkingSoft.s
+
+# target to generate assembly for a file
+src/Model/ParkingSoft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/Model/ParkingSoft.cpp.s
+.PHONY : src/Model/ParkingSoft.cpp.s
+
+src/View/View.obj: src/View/View.cpp.obj
+.PHONY : src/View/View.obj
+
+# target to build an object file
+src/View/View.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/View/View.cpp.obj
+.PHONY : src/View/View.cpp.obj
+
+src/View/View.i: src/View/View.cpp.i
+.PHONY : src/View/View.i
+
+# target to preprocess a source file
+src/View/View.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/View/View.cpp.i
+.PHONY : src/View/View.cpp.i
+
+src/View/View.s: src/View/View.cpp.s
+.PHONY : src/View/View.s
+
+# target to generate assembly for a file
+src/View/View.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/View/View.cpp.s
+.PHONY : src/View/View.cpp.s
 
 # Help Target
 help:
@@ -304,28 +400,40 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Recruitment_IER_EDLF
-	@echo ... Model/Candidato.obj
-	@echo ... Model/Candidato.i
-	@echo ... Model/Candidato.s
-	@echo ... Model/Cultura.obj
-	@echo ... Model/Cultura.i
-	@echo ... Model/Cultura.s
-	@echo ... Model/Entrevista.obj
-	@echo ... Model/Entrevista.i
-	@echo ... Model/Entrevista.s
-	@echo ... Model/FactoryCandidato.obj
-	@echo ... Model/FactoryCandidato.i
-	@echo ... Model/FactoryCandidato.s
-	@echo ... Model/ParkingSoft.obj
-	@echo ... Model/ParkingSoft.i
-	@echo ... Model/ParkingSoft.s
-	@echo ... View/View.obj
-	@echo ... View/View.i
-	@echo ... View/View.s
+	@echo ... ParkingSoft
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Model/Australia.obj
+	@echo ... src/Model/Australia.i
+	@echo ... src/Model/Australia.s
+	@echo ... src/Model/Candidato.obj
+	@echo ... src/Model/Candidato.i
+	@echo ... src/Model/Candidato.s
+	@echo ... src/Model/Colombia.obj
+	@echo ... src/Model/Colombia.i
+	@echo ... src/Model/Colombia.s
+	@echo ... src/Model/Cultura.obj
+	@echo ... src/Model/Cultura.i
+	@echo ... src/Model/Cultura.s
+	@echo ... src/Model/Entrevista.obj
+	@echo ... src/Model/Entrevista.i
+	@echo ... src/Model/Entrevista.s
+	@echo ... src/Model/Espania.obj
+	@echo ... src/Model/Espania.i
+	@echo ... src/Model/Espania.s
+	@echo ... src/Model/FactoryCandidato.obj
+	@echo ... src/Model/FactoryCandidato.i
+	@echo ... src/Model/FactoryCandidato.s
+	@echo ... src/Model/Japon.obj
+	@echo ... src/Model/Japon.i
+	@echo ... src/Model/Japon.s
+	@echo ... src/Model/ParkingSoft.obj
+	@echo ... src/Model/ParkingSoft.i
+	@echo ... src/Model/ParkingSoft.s
+	@echo ... src/View/View.obj
+	@echo ... src/View/View.i
+	@echo ... src/View/View.s
 .PHONY : help
 
 

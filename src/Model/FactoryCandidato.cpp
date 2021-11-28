@@ -8,6 +8,10 @@ FactoryCandidato::FactoryCandidato() {
 
 }
 
+/*
+ * Este metodo crea un objeto de tipo candidato al cual le añade toda la información proporcionada por el reclutador
+ * y regresa este nuevo candidato que será agregado al sistema por la clase ParkingSoft.
+ */
 Candidato FactoryCandidato::crearCandidato() {
     string nombre, email, linkedIn, github;
     int pasaporte, opc;
