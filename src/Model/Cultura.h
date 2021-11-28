@@ -18,7 +18,8 @@ class Cultura {
 
     public:
         Cultura();
-        virtual void infoCultura();
+        virtual string infoCultura();
+        virtual string festividades();
         string getNombre();
 
 };

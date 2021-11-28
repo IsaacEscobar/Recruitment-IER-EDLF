@@ -20,6 +20,7 @@ using std::vector;
 using std::ofstream;
 using std::endl;
 using std::to_string;
+using std::ios;
 
 class ParkingSoft {
 

@@ -11,7 +11,8 @@ class Australia : public Cultura {
 
     public:
         Australia();
-        virtual void infoCultura() override;
+        virtual string infoCultura() override;
+        virtual string festividades() override;
 
 };
 

@@ -56,14 +56,37 @@ void ParkingSoft::anadirEntrevista() {
             if(verDoc == documento)
             {
                 entrevistaTemp.setCandidato(pCandidato->second->getNombre());
+                nombre = pCandidato->second->getNombre();
                 entrevistaTemp.setIdentificacion(documento);
                 entrevistaTemp.setFecha((fecha));
                 entrevistaTemp.setNacionalidad(pCandidato->second->getNacionalidad()->getNombre());
+                nacionalidad = pCandidato->second->getNacionalidad()->getNombre();
+
+                ofstream guiaEntrevista;
+                guiaEntrevista.open("../Guia_Entrevista.txt", ios::out);
+                if(guiaEntrevista.fail())
+                {
+                    cout << "Error al abrir el archivo";
+                    exit(1);
+                }
+                else
+                {
+                    guiaEntrevista << "Esta es la guia de la entrevista\n";
+                    guiaEntrevista << "El nombre del candidato es: " << nombre << "\n";
+                    guiaEntrevista << "La fecha de la entrevista es: " << fecha << "\n";
+                    guiaEntrevista << "La nacionalidad del candidato es: " << nacionalidad << "\n";
+                    guiaEntrevista << "\n";
+
+                    guiaEntrevista << pCandidato->second->getNacionalidad()->infoCultura() <<  "\n";
+
+                    guiaEntrevista << pCandidato->second->getNacionalidad()->festividades() <<  "\n";
+                    guiaEntrevista.close();
+                }
                 entrevistas.push_back(entrevistaTemp);
+
             }
         }
     }
-
 }
 
 void ParkingSoft::generarCartaBienv() {

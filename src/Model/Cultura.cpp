@@ -9,8 +9,10 @@ Cultura::Cultura()
 {
 }
 
-void Cultura::infoCultura() {
+string Cultura::infoCultura() {
+}
 
+string Cultura::festividades() {
 }
 
 string Cultura::getNombre() {

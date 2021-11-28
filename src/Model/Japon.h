@@ -11,7 +11,8 @@ class Japon : public Cultura {
 
     public:
         Japon();
-        virtual void infoCultura() override;
+        virtual string infoCultura() override;
+        virtual string festividades() override;
 
 };
 

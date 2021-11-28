@@ -11,7 +11,8 @@ class Colombia : public Cultura {
 
     public:
         Colombia();
-        virtual void infoCultura() override;
+        virtual string infoCultura() override;
+        virtual string festividades() override;
 
 };
 

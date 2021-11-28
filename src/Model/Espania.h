@@ -11,7 +11,8 @@ class Espania : public Cultura {
 
     public:
         Espania();
-        virtual void infoCultura() override;
+        virtual string infoCultura() override;
+        virtual string festividades() override;
 };
 
 

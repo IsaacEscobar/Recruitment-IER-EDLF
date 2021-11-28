@@ -52,6 +52,6 @@ Candidato FactoryCandidato::crearCandidato() {
             default: cout << "Opcion no contemplada, intentelo de nuevo\n";
                 break;
         }
-    } while(opc < 4 && opc > 1);
+    } while(opc > 4 && opc < 1);
     return newCandidato;
 }
