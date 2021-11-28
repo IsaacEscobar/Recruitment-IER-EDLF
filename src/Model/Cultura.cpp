@@ -5,10 +5,14 @@
 #include "Cultura.h"
 
 
-Cultura::Cultura() {
-
+Cultura::Cultura()
+{
 }
 
 void Cultura::infoCultura() {
 
+}
+
+string Cultura::getNombre() {
+    return nombre;
 }

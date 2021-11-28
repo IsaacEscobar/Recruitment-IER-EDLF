@@ -18,13 +18,14 @@ class ParkingSoft {
 
     private:
         map<int, Candidato*> candidatos;
-        vector<Entrevista*> entrevistas;
+        vector<Entrevista> entrevistas;
         FactoryCandidato factory;
     public:
         ParkingSoft();
         void anadirCandidato();
         void anadirEntrevista();
         void generarCartaBienv();
+        bool verExisteCandidato(int documento);
 
 };
 

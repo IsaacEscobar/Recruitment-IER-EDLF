@@ -5,7 +5,7 @@
 #include "Australia.h"
 
 Australia::Australia() {
-
+    this->nombre = "Australia";
 }
 
 void Australia::infoCultura() {

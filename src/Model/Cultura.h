@@ -13,10 +13,13 @@ using std::cout;
 using std::cin;
 
 class Cultura {
+    protected:
+       string nombre;
 
     public:
         Cultura();
         virtual void infoCultura();
+        string getNombre();
 
 };
 
