@@ -18,11 +18,11 @@ class Candidato {
         string linkedIn;
         string github;
         int pasaporte;
-        Cultura nacionalidad;
+        Cultura* nacionalidad;
 
     public:
         Candidato();
-        Candidato(string nombre, string email, string linkedIn, string github, int pasaporte, Cultura nacionalidad);
+        Candidato(string nombre, string email, string linkedIn, string github, int pasaporte, Cultura *nacionalidad);
 
         string getNombre();
         void setNombre(string nombre);
@@ -34,8 +34,8 @@ class Candidato {
         void setGithub(string github);
         int getPasaporte();
         void setPasaporte(int pasaporte);
-        Cultura getNacionalidad();
-        void setNacionalidad(Cultura nacionalidad);
+        Cultura* getNacionalidad();
+        void setNacionalidad(Cultura *nacionalidad);
 
 
 };

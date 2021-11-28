@@ -11,6 +11,7 @@ FactoryCandidato::FactoryCandidato() {
 Candidato FactoryCandidato::crearCandidato() {
     string nombre, email, linkedIn, github;
     int pasaporte, opc;
+    Cultura *ptr;
     cout << "Ingrese el nombre del candidato:\n";
     cin.ignore (std::numeric_limits<std::streamsize>::max(), '\n');
     getline(cin, nombre);
@@ -23,7 +24,7 @@ Candidato FactoryCandidato::crearCandidato() {
     //try
     cout << "Ingrese el pasaporte del candidato:\n";
     cin >> pasaporte;
-    Candidato newCandidato = Candidato(nombre, email, linkedIn, github, pasaporte, colombia);
+    Candidato newCandidato = Candidato(nombre, email, linkedIn, github, pasaporte, ptr);
     do {
         cout << "Seleccione el pais de origen del candidato:\n";
         cout << "1. Colombia\n"
@@ -32,13 +33,21 @@ Candidato FactoryCandidato::crearCandidato() {
                 "4. Japon\n";
         cin >> opc;
         switch (opc) {
-            case 1: newCandidato.setNacionalidad(colombia);
+            case 1:
+                ptr = new Colombia();
+                newCandidato.setNacionalidad(ptr);
                 break;
-            case 2: newCandidato.setNacionalidad(espania);
+            case 2:
+                ptr = new Espania();
+                newCandidato.setNacionalidad(ptr);
                 break;
-            case 3: newCandidato.setNacionalidad(australia);
+            case 3:
+                ptr = new Australia();
+                newCandidato.setNacionalidad(ptr);
                 break;
-            case 4: newCandidato.setNacionalidad(japon);
+            case 4:
+                ptr = new Japon();
+                newCandidato.setNacionalidad(ptr);
                 break;
             default: cout << "Opcion no contemplada, intentelo de nuevo\n";
                 break;
