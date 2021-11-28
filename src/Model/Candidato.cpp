@@ -8,6 +8,15 @@ Candidato::Candidato() {
 
 }
 
+Candidato::Candidato(string nombre, string email, string linkedIn, string github, int pasaporte, Cultura nacionalidad) {
+    setNombre(nombre);
+    setEmail(email);
+    setLinkedIn(linkedIn);
+    setGithub(github);
+    setPasaporte(pasaporte);
+    setNacionalidad(nacionalidad);
+}
+
 string Candidato::getNombre() {
     return nombre;
 }
@@ -55,4 +64,6 @@ Cultura Candidato::getNacionalidad() {
 void Candidato::setNacionalidad(Cultura nacionalidad) {
     this->nacionalidad = nacionalidad;
 }
+
+
 

@@ -21,7 +21,10 @@ class ParkingSoft {
         vector<Entrevista*> entrevistas;
         FactoryCandidato factory;
     public:
-
+        ParkingSoft();
+        void anadirCandidato();
+        void anadirEntrevista();
+        void generarCartaBienv();
 
 };
 

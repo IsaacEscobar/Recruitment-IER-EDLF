@@ -9,5 +9,5 @@ Japon::Japon() {
 }
 
 void Japon::infoCultura() {
-
+    cout << "Hola soy japones\n";
 }

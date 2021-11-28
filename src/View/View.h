@@ -12,6 +12,10 @@ class View {
     private:
         ParkingSoft principal;
 
+    public:
+        View();
+        void menuParkingSoft();
+
 };
 
 

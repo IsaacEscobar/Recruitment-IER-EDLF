@@ -22,6 +22,7 @@ class Candidato {
 
     public:
         Candidato();
+        Candidato(string nombre, string email, string linkedIn, string github, int pasaporte, Cultura nacionalidad);
 
         string getNombre();
         void setNombre(string nombre);
