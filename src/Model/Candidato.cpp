@@ -8,7 +8,7 @@ Candidato::Candidato() {
 
 }
 
-Candidato::Candidato(string nombre, string email, string linkedIn, string github, int pasaporte, Cultura nacionalidad) {
+Candidato::Candidato(string nombre, string email, string linkedIn, string github, int pasaporte, Cultura *nacionalidad) {
     setNombre(nombre);
     setEmail(email);
     setLinkedIn(linkedIn);
@@ -57,11 +57,11 @@ void Candidato::setPasaporte(int pasaporte) {
     this->pasaporte = pasaporte;
 }
 
-Cultura Candidato::getNacionalidad() {
+Cultura* Candidato::getNacionalidad() {
     return nacionalidad;
 }
 
-void Candidato::setNacionalidad(Cultura nacionalidad) {
+void Candidato::setNacionalidad(Cultura *nacionalidad) {
     this->nacionalidad = nacionalidad;
 }
 
