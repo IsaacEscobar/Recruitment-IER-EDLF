@@ -13,7 +13,7 @@ using std::cout;
 using std::cin;
 
 class Cultura {
-    
+
     protected:
        string nombre;
 

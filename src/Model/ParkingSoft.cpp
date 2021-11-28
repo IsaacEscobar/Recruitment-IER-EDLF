@@ -63,7 +63,7 @@ void ParkingSoft::anadirEntrevista() {
                 nacionalidad = pCandidato->second->getNacionalidad()->getNombre();
 
                 ofstream guiaEntrevista;
-                guiaEntrevista.open("../Guia_Entrevista.txt", ios::out);
+                guiaEntrevista.open("../Archivos_txt/Guia_Entrevista.txt", ios::out);
                 if(guiaEntrevista.fail())
                 {
                     cout << "Error al abrir el archivo";
@@ -92,14 +92,14 @@ void ParkingSoft::anadirEntrevista() {
 void ParkingSoft::generarCartaBienv() {
     string fName;
     int pasCand;
-    for(map<int, Candidato*>::iterator pCandidato = candidatos.begin(); pCandidato != candidatos.end(); pCandidato++) {
-        cout << pCandidato->second->getNombre() << " - " << pCandidato->second->getPasaporte() << "\n";
-    }
-    cout << "Digite el pasaporte del candidato: ";
+//    for(map<int, Candidato*>::iterator pCandidato = candidatos.begin(); pCandidato != candidatos.end(); pCandidato++) {
+//        cout << pCandidato->second->getNombre() << " - " << pCandidato->second->getPasaporte() << "\n";
+//    }
+    cout << "Digite el pasaporte del candidato:\n";
     cin >> pasCand;
     fName = to_string(pasCand) + ".txt";
     ofstream file(fName, ofstream::out);
-    file << "";
+    file << ;
 
 }
 
