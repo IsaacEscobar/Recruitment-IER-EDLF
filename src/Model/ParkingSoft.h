@@ -8,6 +8,7 @@
 #include "Candidato.h"
 #include "FactoryCandidato.h"
 #include "Entrevista.h"
+#include "Colombia.h"
 #include <map>
 #include <vector>
 #include <ios>
@@ -28,6 +29,7 @@ class ParkingSoft {
         map<int, Candidato*> candidatos;
         vector<Entrevista> entrevistas;
         FactoryCandidato factory;
+        Colombia colombia;
     public:
         ParkingSoft();
         void anadirCandidato();
