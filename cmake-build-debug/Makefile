@@ -64,6 +64,30 @@ CMAKE_BINARY_DIR = "C:\Users\isake\Desktop\Ingenieria\POO\POO Trabajos\Recruitme
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -83,6 +107,27 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,29 +173,83 @@ ParkingSoft/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/build
 .PHONY : ParkingSoft/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+#=============================================================================
+# Target rules for targets named gmock_main
 
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
 
-main.i: main.cpp.i
-.PHONY : main.i
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f lib\googleTest\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googleTest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
 
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/main.cpp.i
-.PHONY : main.cpp.i
+#=============================================================================
+# Target rules for targets named gmock
 
-main.s: main.cpp.s
-.PHONY : main.s
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
 
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/main.cpp.s
-.PHONY : main.cpp.s
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f lib\googleTest\googlemock\CMakeFiles\gmock.dir\build.make lib/googleTest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f lib\googleTest\googletest\CMakeFiles\gtest.dir\build.make lib/googleTest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f lib\googleTest\googletest\CMakeFiles\gtest_main.dir\build.make lib/googleTest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named Recruitment_IER_EDLF_lib
+
+# Build rule for target.
+Recruitment_IER_EDLF_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Recruitment_IER_EDLF_lib
+.PHONY : Recruitment_IER_EDLF_lib
+
+# fast build rule for target.
+Recruitment_IER_EDLF_lib/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\Recruitment_IER_EDLF_lib.dir\build.make src/CMakeFiles/Recruitment_IER_EDLF_lib.dir/build
+.PHONY : Recruitment_IER_EDLF_lib/fast
+
+#=============================================================================
+# Target rules for targets named Recruitment_IER_EDLF_test
+
+# Build rule for target.
+Recruitment_IER_EDLF_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Recruitment_IER_EDLF_test
+.PHONY : Recruitment_IER_EDLF_test
+
+# fast build rule for target.
+Recruitment_IER_EDLF_test/fast:
+	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment_IER_EDLF_test.dir\build.make test/CMakeFiles/Recruitment_IER_EDLF_test.dir/build
+.PHONY : Recruitment_IER_EDLF_test/fast
 
 src/Model/Australia.obj: src/Model/Australia.cpp.obj
 .PHONY : src/Model/Australia.obj
@@ -392,6 +491,30 @@ src/View/View.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/View/View.cpp.s
 .PHONY : src/View/View.cpp.s
 
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ParkingSoft.dir\build.make CMakeFiles/ParkingSoft.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -399,11 +522,18 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... ParkingSoft
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Recruitment_IER_EDLF_lib
+	@echo ... Recruitment_IER_EDLF_test
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... src/Model/Australia.obj
 	@echo ... src/Model/Australia.i
 	@echo ... src/Model/Australia.s
@@ -434,6 +564,9 @@ help:
 	@echo ... src/View/View.obj
 	@echo ... src/View/View.i
 	@echo ... src/View/View.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

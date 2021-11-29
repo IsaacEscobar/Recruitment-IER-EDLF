@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ParkingSoft.dir/main.cpp.obj"
   "CMakeFiles/ParkingSoft.dir/src/Model/Australia.cpp.obj"
   "CMakeFiles/ParkingSoft.dir/src/Model/Candidato.cpp.obj"
   "CMakeFiles/ParkingSoft.dir/src/Model/Colombia.cpp.obj"
@@ -10,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ParkingSoft.dir/src/Model/Japon.cpp.obj"
   "CMakeFiles/ParkingSoft.dir/src/Model/ParkingSoft.cpp.obj"
   "CMakeFiles/ParkingSoft.dir/src/View/View.cpp.obj"
+  "CMakeFiles/ParkingSoft.dir/src/main.cpp.obj"
   "ParkingSoft.exe"
   "ParkingSoft.exe.manifest"
   "ParkingSoft.pdb"
