@@ -238,19 +238,6 @@ Recruitment_IER_EDLF_lib/fast:
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\Recruitment_IER_EDLF_lib.dir\build.make src/CMakeFiles/Recruitment_IER_EDLF_lib.dir/build
 .PHONY : Recruitment_IER_EDLF_lib/fast
 
-#=============================================================================
-# Target rules for targets named Recruitment_IER_EDLF_test
-
-# Build rule for target.
-Recruitment_IER_EDLF_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Recruitment_IER_EDLF_test
-.PHONY : Recruitment_IER_EDLF_test
-
-# fast build rule for target.
-Recruitment_IER_EDLF_test/fast:
-	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment_IER_EDLF_test.dir\build.make test/CMakeFiles/Recruitment_IER_EDLF_test.dir/build
-.PHONY : Recruitment_IER_EDLF_test/fast
-
 src/Model/Australia.obj: src/Model/Australia.cpp.obj
 .PHONY : src/Model/Australia.obj
 
@@ -529,7 +516,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... ParkingSoft
 	@echo ... Recruitment_IER_EDLF_lib
-	@echo ... Recruitment_IER_EDLF_test
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest

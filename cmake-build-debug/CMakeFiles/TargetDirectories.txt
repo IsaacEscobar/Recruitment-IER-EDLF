@@ -34,10 +34,9 @@ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-bu
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/src/CMakeFiles/list_install_components.dir
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/src/CMakeFiles/install/strip.dir
-C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
-C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/Recruitment_IER_EDLF_test.dir
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/install/local.dir
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/install.dir
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/list_install_components.dir
 C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/cmake-build-debug/test/CMakeFiles/install/strip.dir

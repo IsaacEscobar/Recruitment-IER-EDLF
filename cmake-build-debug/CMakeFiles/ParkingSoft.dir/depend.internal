@@ -60,9 +60,6 @@ CMakeFiles/ParkingSoft.dir/src/View/View.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/View/View.cpp
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/View/View.h
 CMakeFiles/ParkingSoft.dir/src/main.cpp.obj
- C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/main.cpp
-CMakeFiles/ParkingSoft.dir/test/ParkingSoftTest.cpp.obj
- C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/lib/googleTest/googletest/include/gtest/gtest.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Australia.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Candidato.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Colombia.h
@@ -72,4 +69,5 @@ CMakeFiles/ParkingSoft.dir/test/ParkingSoftTest.cpp.obj
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/FactoryCandidato.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/Japon.h
  C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/Model/ParkingSoft.h
- C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/test/ParkingSoftTest.cpp
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/View/View.h
+ C:/Users/isake/Desktop/Ingenieria/POO/POO Trabajos/Recruitment-IER-EDLF/src/main.cpp

@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = "C:\Users\isake\Desktop\Ingenieria\POO\POO Trabajos\Recruitme
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -107,6 +97,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -160,44 +160,6 @@ depend:
 	cd /d C:\Users\isake\Desktop\INGENI~1\POO\POOTRA~1\RECRUI~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-test/CMakeFiles/Recruitment_IER_EDLF_test.dir/rule:
-	cd /d C:\Users\isake\Desktop\INGENI~1\POO\POOTRA~1\RECRUI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/Recruitment_IER_EDLF_test.dir/rule
-.PHONY : test/CMakeFiles/Recruitment_IER_EDLF_test.dir/rule
-
-# Convenience name for target.
-Recruitment_IER_EDLF_test: test/CMakeFiles/Recruitment_IER_EDLF_test.dir/rule
-.PHONY : Recruitment_IER_EDLF_test
-
-# fast build rule for target.
-Recruitment_IER_EDLF_test/fast:
-	cd /d C:\Users\isake\Desktop\INGENI~1\POO\POOTRA~1\RECRUI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment_IER_EDLF_test.dir\build.make test/CMakeFiles/Recruitment_IER_EDLF_test.dir/build
-.PHONY : Recruitment_IER_EDLF_test/fast
-
-ParkingSoftTest.obj: ParkingSoftTest.cpp.obj
-.PHONY : ParkingSoftTest.obj
-
-# target to build an object file
-ParkingSoftTest.cpp.obj:
-	cd /d C:\Users\isake\Desktop\INGENI~1\POO\POOTRA~1\RECRUI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment_IER_EDLF_test.dir\build.make test/CMakeFiles/Recruitment_IER_EDLF_test.dir/ParkingSoftTest.cpp.obj
-.PHONY : ParkingSoftTest.cpp.obj
-
-ParkingSoftTest.i: ParkingSoftTest.cpp.i
-.PHONY : ParkingSoftTest.i
-
-# target to preprocess a source file
-ParkingSoftTest.cpp.i:
-	cd /d C:\Users\isake\Desktop\INGENI~1\POO\POOTRA~1\RECRUI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment_IER_EDLF_test.dir\build.make test/CMakeFiles/Recruitment_IER_EDLF_test.dir/ParkingSoftTest.cpp.i
-.PHONY : ParkingSoftTest.cpp.i
-
-ParkingSoftTest.s: ParkingSoftTest.cpp.s
-.PHONY : ParkingSoftTest.s
-
-# target to generate assembly for a file
-ParkingSoftTest.cpp.s:
-	cd /d C:\Users\isake\Desktop\INGENI~1\POO\POOTRA~1\RECRUI~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Recruitment_IER_EDLF_test.dir\build.make test/CMakeFiles/Recruitment_IER_EDLF_test.dir/ParkingSoftTest.cpp.s
-.PHONY : ParkingSoftTest.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -210,10 +172,6 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... Recruitment_IER_EDLF_test
-	@echo ... ParkingSoftTest.obj
-	@echo ... ParkingSoftTest.i
-	@echo ... ParkingSoftTest.s
 .PHONY : help
 
 

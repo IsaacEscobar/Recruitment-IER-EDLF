@@ -60,9 +60,6 @@ CMakeFiles/ParkingSoft.dir/src/View/View.cpp.obj: \
  ../src/View/View.cpp \
  ../src/View/View.h
 CMakeFiles/ParkingSoft.dir/src/main.cpp.obj: \
- ../src/main.cpp
-CMakeFiles/ParkingSoft.dir/test/ParkingSoftTest.cpp.obj: \
- ../lib/googleTest/googletest/include/gtest/gtest.h \
  ../src/Model/Australia.h \
  ../src/Model/Candidato.h \
  ../src/Model/Colombia.h \
@@ -72,4 +69,5 @@ CMakeFiles/ParkingSoft.dir/test/ParkingSoftTest.cpp.obj: \
  ../src/Model/FactoryCandidato.h \
  ../src/Model/Japon.h \
  ../src/Model/ParkingSoft.h \
- ../test/ParkingSoftTest.cpp
+ ../src/View/View.h \
+ ../src/main.cpp
